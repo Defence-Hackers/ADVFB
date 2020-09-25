@@ -1,0 +1,43 @@
+banner() {
+
+clear
+printf "\e[0m\n"
+printf "\e[0m\e[92m    _      ____   __     __  \e[0m\e[93m   _____    ____  \e[0m\n"
+printf "\e[0m\e[92mU  / \  u |  _ \  \ \   / /u \e[0m\e[93m  |  ___|U | __ )u\e[0m\n"
+printf "\e[0m\e[92m \/ _ \/ /| | | |  \ \ / //  \e[0m\e[93m U| |_  u \|  _ \/\e[0m\n"
+printf "\e[0m\e[92m / ___ \ U| |_| |\ /\ V /_,-.\e[0m\e[93m \|  _|/   | |_) |\e[0m\n"
+printf "\e[0m\e[92m/_/   \_\ |____/ uU  \_/-(_/  \e[0m\e[93m |_|      |____/ \e[0m\n"
+printf "\e[0m\e[92m \\    >>  |||_     //       \e[0m\e[93m    )(\\,-  _|| \\_ \e[0m\n"
+printf "\e[0m\e[92m(__)  (__)(__)_)   (__)      \e[0m\e[93m (__)(_/ (__) (__)\e[0m\n"
+printf "\n"
+printf "\e[1;93m.:.:.\e[0m\e[1;77m Phishing Tool coded by: @Mr-Yenoj \e[0m\e[1;93m.:.:.\e[0m\n"
+printf "\e[0m\n"
+
+}
+banner
+printf "\e[0m\n"
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Packages ....\e[0m\n"
+apt-get update -y > /dev/null 2>&1
+apt-get install perl -y > /dev/null 2>&1
+apt-get install php -y > /dev/null 2>&1
+apt-get install curl -y > /dev/null 2>&1
+apt-get install unzip -y > /dev/null 2>&1
+apt-get install -y xdg-utils > /dev/null 2>&1
+apt-get install wget -y > /dev/null 2>&1
+apt-get install openssh -y > /dev/null 2>&1
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Modules ....\e[0m\n"
+apt-get install libcrypt-ssleay-perl -y > /dev/null 2>&1
+apt-get install libnet-ssleay-perl -y > /dev/null 2>&1
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Ngrok ....\e[0m\n"
+curl -LO https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
+unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
+rm -rf ngrok-stable-linux-386.zip
+chmod +x ngrok
+sleep 2
+printf "\e[0m\n"
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installation Completed !! \e[0m\n"
+printf "\e[0m\n"
+sleep 2
+printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Type \e[1;96mbash advfb.sh \e[1;93mto run Advance Facebook Tool !! \e[0m\n"
+printf "\e[0m\n"
+printf "\e[0m\n"
