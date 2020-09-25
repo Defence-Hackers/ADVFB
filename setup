@@ -32,9 +32,8 @@ printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Ngrok ....\e[0m\n"
 curl -LO https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
 if [[ -e ngrok-stable-linux-arm.zip ]]; then
 unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
-mv ngrok .htr
 rm -rf ngrok-stable-linux-arm.zip
-chmod +x .htr/ngrok
+chmod +x ngrok
 else
 printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;96m Install Ngrok Manually.\e[0m\n"
 exit 1
