@@ -7,7 +7,7 @@
 
 ADVFB is a bash based script which is officially made for "phish*ng FACEBOOK WITH ADVANCE FEATURE". This tool works on KAlI LINUX ONLY.
 
-![](IMG_20200925_120633.jpeg)
+![](IMG_20200925_120633.jpg)
 
 ### 📌 ***ADVFB is available for***:
 
