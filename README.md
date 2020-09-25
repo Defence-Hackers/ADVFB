@@ -1,7 +1,7 @@
 <h1 align="center">ADVFB v1.0</h1>
 <p align="center">
       A new automated script for FACEBOOK Ph*shing
-/p>
+</p>
 
 ## 🔍 ***About ADVFB***:
 
