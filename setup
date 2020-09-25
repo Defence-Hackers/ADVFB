@@ -30,9 +30,15 @@ apt-get install libcrypt-ssleay-perl -y > /dev/null 2>&1
 apt-get install libnet-ssleay-perl -y > /dev/null 2>&1
 printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installing Ngrok ....\e[0m\n"
 curl -LO https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
-unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
-rm -rf ngrok-stable-linux-386.zip
-chmod +x ngrok
+if [[ -e ngrok-stable-linux-arm.zip ]]; then
+unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
+mv ngrok .htr
+rm -rf ngrok-stable-linux-arm.zip
+chmod +x .htr/ngrok
+else
+printf "\n \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;93m Error \e[1;31m[\e[0m\e[1;77m!\e[0m\e[1;31m]\e[0m\e[1;96m Install Ngrok Manually.\e[0m\n"
+exit 1
+fi
 sleep 2
 printf "\e[0m\n"
 printf "\e[0m\e[1;91m [\e[1;97m~\e[1;91m]\e[1;93m Installation Completed !! \e[0m\n"
