@@ -1,0 +1,48 @@
+body{
+  background-color: #FFFFFF;
+}
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.dot-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+}
+.dot{
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #808080;
+}
+.dot-1{
+  animation-name: flow;
+  animation-duration: .4s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.dot-2{
+  animation: flow .4s ease .2s infinite alternate;
+}
+.dot-3{
+  animation: flow .4s ease .4s infinite alternate;
+}
+.dot-4{
+  animation: flow .4s ease .6s infinite alternate;
+}
+@keyframes flow {
+  from{
+    opacity:1;
+    transform: scale(1.2);
+  }
+  to{
+    opacity: .20;
+    transform: scale(.75);
+  }
+}
