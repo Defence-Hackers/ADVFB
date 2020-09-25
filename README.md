@@ -54,7 +54,7 @@ $ bash advfb.sh
 ### Subscribe our channel on youtube:
 https://www.youtube.com/c/creativehackers
 or
-https://www.youtube.com/c/defencehackersyenoj
+https://www.youtube.com/c/defencehackeryenoj
 
 ### Chekout our webite:
 https://www.creative-hackers.com
