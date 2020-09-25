@@ -153,6 +153,14 @@ menu
 fi
 }
 
+Use() {
+clear
+sleep 2
+xdg-open https://creative-hackers.xyz
+banner
+menu
+}
+
 Tool() {
 
 clear
