@@ -21,7 +21,7 @@ $ apt-get update -y
 $ apt-get upgrade -y
 ```
 ```
-$ pkg install git -y
+$ apt-get install git -y
 ```
 ```
 $ git clone https://github.com/Defence-Hackers/ADVFB
